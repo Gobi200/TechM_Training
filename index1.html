@@ -1,0 +1,190 @@
+<html>
+    <head>
+        <title> Basic application</title>
+    </head>
+    <body>
+        <!-- HEAING TAG -->
+        <h1 id="heading-nav"> Heading 1</h1>
+        <h2> Heading 2</h2>
+        <h3> Heading 3</h3>
+        <h4> Heading 4</h4>
+        <h4> Heading 5</h4>
+        <h5> Heading 6</h5>
+        <h6> Heading 7</h6>
+        <hr>
+
+        <!-- PARAGRAPH TAG -->
+        <h1 id="para-nav">Paragraph Tags</h1>
+        <p> Sample text using <b>para tag 1</b></p>
+        <p> Sample text using <strong>para tag 2</strong></p>
+        <pre>Lorem Ipsum is simply dummy text of the printing and typesetting 
+            industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a 
+            galley of type and scrambled it to make a type specimen book.</pre>
+        <hr>
+
+        <!-- TEXT FORMATTING -->
+        <h1 id="text-nav">TEXT FORMATTING TAGS</h1>
+        <b> This is Bold font</b>
+        <br>
+        <i> This is Italic font </i>
+        <br>
+        <u> This id Underline font</u>
+        <br>
+        <mark>This is marked font</mark>
+        <br>
+        <del>This is the deleted font</del>
+        <br>
+        <ins> This is inserted font </ins>
+        <br>
+        H<sub>2</sub>O
+        <br>
+        a<sup>2</sup>+b<sup>2</sup>=2ab
+        <br>
+        <abbr title="Indian Space Research Organisation">ISRO</abbr>
+        <hr>
+
+        <!-- LISTING -->
+        <h1 id="list-nav">LISTING</h1>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>This is the First item of unorderd list.</li>
+            <li>This is the Second item of unorderd list.</li>
+            <li>This is the Thirs item of unorderd list.</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>This is the first item of ordered list</li>
+            <li>This is the second item of ordered list</li>
+            <li>This is the third item of ordered list</li>
+        </ol>
+
+        <h3>Discriptive List</h3>
+        <dl>
+            <dt>First:</dt>
+            <dd>This is the value of first item in discriptive list.</dd>
+            <dt>Second:</dt>
+            <dd>This is the value of second item in discriptive list.</dd>
+            <dt>Third:</dt>
+            <dd>This is the value of third item in discriptive list.</dd>
+        </dl>
+        <hr>
+
+        <!-- TABLE -->
+        <h3>Table</h3>
+        <table border="2">
+            <caption>Student table</caption>
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Institute name</th>
+                </tr>
+            </thead>
+           
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Thilak</td>
+                    <td>XYZ Institute</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ramesh</td>
+                    <td>ABC Institute</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+
+        <!-- IMAGE TAG -->
+        <h3>IMAGE TAG</h3>
+        <img src="HTML Logo.png" alt="HTML LOGO" width="200">
+        <hr>
+
+        <!-- ANCHOR TAG -->
+        <h3>ANCHOR TAG</h3>
+        <a href="#heading-nav" style="text-decoration: none;">Navigate to Heading</a>
+        <br>
+        <a href="#para-nav" style="text-decoration: none;">Navigation to Paragraph tag</a>
+        <br>
+        <a href="#text-nav" style="text-decoration: none;">Navigate to text formatting</a>
+        <br>
+        <a href="#list-nav" style="text-decoration: none;">Navigate to list</a>
+        <br>
+        <a href="https://www.techmahindra.com/careers/" target="_self" style="text-decoration: none;">Tech Mahindra</a>
+        <br>
+        <hr>
+
+        <!-- IFRAME TAG -->
+        <h3>IFRAME TAG</h3>
+        <iframe width="560" height="350" loop src="https://www.youtube.com/embed/8KFNu0lC_WI?si=AAQErbXjrLL95lHA" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <hr>
+
+        <!-- AUDIO TAG -->
+        <h3>AUDIO TAG</h3>
+        <audio controls loop>
+            <source src="32 Cracking the TOEFL Track 32.mp3" type="audio/mp3">
+        </audio>
+        <hr>
+
+        <!-- FORM TAG -->
+        <h3>FORM TAG</h3>
+        <form>
+            <fieldset>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fname">FIRSTNAME</label>
+                <input type="text" placeholder="Enter your first name" name="firstname" required><br><br>
+            
+                <label for="lname">LASTNAME</label>
+                <input type="text" placeholder="Enter your last name" name="lastname" required><br><br>
+           
+                <label for="email">Email ID</label>
+                <input type="email" placeholder="Enter your email id" name="email id" required><br><br>
+            </fieldset>
+            <br>
+            
+            <fieldset>
+                <legend>Contact Details</legend>
+                <label for="mobile">MOBILE NO</label>
+                <input type="tel" placeholder="Enter Mobile Number" name="mobile no" required> <br><br>
+
+                <label for="address">ADDRESS</label>
+                <textarea name="address" placeholder="Enter the address" rows="3"></textarea><br><br>
+            </fieldset>
+            <br>
+
+            <label for="gender">GENDER</label>
+            <input type="radio" name="gender" value="Male" required>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" value="Female" required>
+            <label for="gender">Female</label><br><br>
+
+            <label for="intrests">INTREST</label>
+            <select name="intrest">
+                <option value="Sports">Sports</option>
+                <option value="Music">Music</option>
+                <option value="Reading">Reading</option>
+            </select><br><br>
+
+            <input type="checkbox" name="age" required>
+            <label for="age-agree">I agree that am above 18.</label><br>
+            <input type="checkbox" name="agree" required>
+            <label for="terms-agree">I agree to terms and conditions.</label><br><br>
+
+            <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+
+        <!-- DIV TAG AND SPAN TAG -->
+         <div>The Default <span style="color: red;">display</span> of div tag is block Level.<span> This is the text inside span tag.</span></div>
+
+         <!-- ROWSPAN - MERGING CELLS IN TABLE -->
+          
+    </body>
+</html>
